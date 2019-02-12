@@ -28,6 +28,13 @@ Basically, this program merges together the calendars for the next 6 weeks, prov
 - Add the events to your calendar software and set the auto update interval to something reasonable (if you can set it). The URL you have to specify is the one that you used to test the server: `http(s)://NAME-OR-IP:PORT/cal.ics`. 
 
 
+# UPDATE 12/02/2018
+Now, it seems that now the website send directly the whole calendar. However, the url is not accepted into Google Calendar.
+
+The `server_single.py` now is just a proxy to the file given by EasyRoom.  
+The start date can be set into the parameters file.
+
+
 ## License
 
 The software contained in this repository is free software, released under the GNU Public License v3 license. See [LICENSE](LICENSE) for more informations.
